@@ -48,4 +48,10 @@ F = input("For multiples of what number shall we print 'Fizz'?" )
 B = input ("For multiples of what number shall we print 'Buzz'?" )
 
 N = 0 
-while T<
+while int(N) < int(T):
+    if N % F == 5 and N % B == 0:
+        print("fizzbuzz")
+    elif N % F == 0:
+        print("fizz")
+    elif N % B == 0:
+        print("buzz")
