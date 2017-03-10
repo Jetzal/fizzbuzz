@@ -56,5 +56,5 @@ while int(N) < int(T):
     elif int(N) % int(B) == 0:
         print("buzz")
     else:
-        print int(n)
+        print(int(N))
     N = N + 1 
