@@ -49,9 +49,9 @@ B = input ("For multiples of what number shall we print 'Buzz'?" )
 
 N = 0 
 while int(N) < int(T):
-    if N % F == 5 and N % B == 0:
+    if int(N) % int(F) == int(5) and N % int(B) == 0:
         print("fizzbuzz")
-    elif N % F == 0:
+    elif int(N) % int(F) == 0:
         print("fizz")
-    elif N % B == 0:
+    elif int(N) % int(B) == 0:
         print("buzz")
