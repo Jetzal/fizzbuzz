@@ -55,3 +55,4 @@ while int(N) < int(T):
         print("fizz")
     elif int(N) % int(B) == 0:
         print("buzz")
+N = N + 1 
