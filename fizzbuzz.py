@@ -49,10 +49,12 @@ B = input ("For multiples of what number shall we print 'Buzz'?" )
 
 N = 0 
 while int(N) < int(T):
-    if int(N) % int(F) == int(5) and N % int(B) == 0:
+    if int(N) % int(F) == 0 and N % int(B) == 0:
         print("fizzbuzz")
     elif int(N) % int(F) == 0:
         print("fizz")
     elif int(N) % int(B) == 0:
         print("buzz")
-N = N + 1 
+    else:
+        print int(n)
+    N = N + 1 
