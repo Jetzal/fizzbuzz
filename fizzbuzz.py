@@ -43,6 +43,9 @@ Fizz
 Fizz
 Buzz
 """
+T = input("How many numbers shall we print?")
 F = input("For multiples of what number shall we print 'Fizz'?" )
 B = input ("For multiples of what number shall we print 'Buzz'?" )
 
+N = 0 
+while T<
