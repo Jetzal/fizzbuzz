@@ -47,7 +47,7 @@ T = input("How many numbers shall we print? ")
 F = input("For multiples of what number shall we print 'Fizz'? ")
 B = input ("For multiples of what number shall we print 'Buzz'? ")
 
-N = 0 
+N = 1
 while int(N) < int(T):
     if int(N) % int(F) == 0 and N % int(B) == 0:
         print("FizzBuzz")
